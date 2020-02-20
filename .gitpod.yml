@@ -1,5 +1,9 @@
 tasks:
-  - init: npm install && npm run build
-    command: npm run start
+  - init: yarn install && yarn build
+    command: yarn start
 image:
   file: .gitpod.Dockerfile
+vscode:
+  extensions:
+    - mubaidr.vuejs-extension-pack@1.1.5:XmDLAyc3HGdLlkXiv6zDUw==
+    - jcbuisson.vue@0.1.5:iY3UUCX2mmoIw5ODWkEcyw==
